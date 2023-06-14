@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-tabs> <!--Uma barrinha disposta abaixo da página(Botton)-->
+      <ion-tab-bar color="black" slot="bottom">
+  
+        <ion-tab-button tab= "jogos"> <!--Um botão do tipo tab faz o roteamento-->
+          <ion-icon name="game-controller-outline"></ion-icon>
+          <ion-label>Jogos</ion-label>
+        </ion-tab-button>
+  
+        <ion-tab-button tab="apps">
+          <ion-icon name="apps-outline"></ion-icon>
+          <ion-label>Apps</ion-label>
+        </ion-tab-button>
+   
+        <ion-tab-button tab="livros">
+          <ion-icon name="book-outline"></ion-icon>
+          <ion-label>Livros</ion-label>
+        </ion-tab-button>
+  
+      </ion-tab-bar> <!--Fecha a barra-->
+    </ion-tabs> 
+
+
+</ion-content>
+
+
+
